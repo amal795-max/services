@@ -36,7 +36,7 @@ class MyApp extends StatelessWidget {
       BlocProvider(create: (_)=> di.sl<AuthBloc>())
       ],
       child:  MaterialApp(
-      debugShowCheckedModeBanner: true,
+      debugShowCheckedModeBanner: false,
       theme: appTheme,
       home: Register()
     ));
